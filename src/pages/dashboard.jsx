@@ -1,12 +1,12 @@
-import Dashboard from "../components/dashboard";
+import Dash from "../components/dash";
 import HeadNav from "../components/headNav";
 
 
-export default function Home() {
+export default function Dashboard() {
     return (
         <>
         <HeadNav />
-        <Dashboard />
+        <Dash />
         </>
     )
 }

@@ -1,8 +1,19 @@
 import React, { useState } from "react";
+// import React, { useState, useEffect, useRef } from "react";
 
 export const Register = (props) => {
+    // const userRef = useRef();
+    // const errRef = useRef();
+
     const [username, setUsername] = useState('');
+    // const [validName, setValidName] = useState(false);
+    // const [userFocus, setUserFocus] = useState(false);
+    
     const [email, setEmail] = useState('');
+    // const [validEmail, setValidEmail] = useState(false);
+    // const [emailFocus, setEmailFocus] = useState(false);
+
+
     const [pass, setPass] = useState('');
 
     const handleSubmit = (e) => {
